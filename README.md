@@ -42,4 +42,5 @@ DB_PASSWORD=admin
 
 # Как выглядит:
 ![alt text](./readme-images/1.jpg)
+Для обновление записи достаточно изменить заголовок и текст в input и textarea, данные обновятся автоматически
 ![alt text](./readme-images/2.jpg)
