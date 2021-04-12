@@ -1,0 +1,27 @@
+.btn {
+  padding: .5em;
+  background-color: $color-primary;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 1em;
+  transition: .3s ease;
+
+  &:active {
+    border: 2px solid $color-secondary;
+  }
+  &:active {
+    background-color: darken($color-primary, 10%);
+  }
+  &:disabled {
+    background-color: lighten($color-primary, 20%);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #42b983;
+
+  &:visited {
+    color: #2c3e50;
+  }
+}
